@@ -1,0 +1,28 @@
+---
+description: Enforce updating spec.md when making changes to the project
+globs:
+alwaysApply: true
+---
+
+# Specification Update Rule
+
+## Rule
+When making changes to this project, you MUST update the `spec.md` file to reflect:
+
+1. **Implementation Status** — Update the checkbox status (⬜ → ✅) when a section/component is completed
+2. **New Components** — Add any new components to the Components List
+3. **Design Changes** — Document any deviations from the original Figma design
+4. **New Assets** — Add any new images/icons to the Assets Required section
+5. **Notes & Decisions** — Document important implementation decisions
+
+## When to Update
+- After completing a section or component
+- When adding new features or components
+- When modifying design tokens or styles
+- When making architectural decisions
+
+## Location
+The specification file is located at: `/spec.md`
+
+## Format
+Use markdown formatting consistent with the existing spec structure.
